@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<schedule>
+    <day name="Понедельник">
+        <event>
+            <time>09:20-10:401(1-ый Зал)</time>
+            <course>Бокс</course>
+            <instructor>Гринев Евгений Александрович</instructor>
+        </event>
+        <event>
+            <time>11:00-12:20(1-ый Зал)</time>
+            <course>Самбо</course>
+            <instructor>Щекутков Александр Юрьевич</instructor>
+        </event>
+        <event>
+            <time>12:40-13:00(1-ый Зал)</time>
+            <course>BJJ</course>
+            <instructor>Бородич Вячеслав Михайлович</instructor>
+        </event>
+        <event>
+            <time>13:20-14:40(1-ый Зал)</time>
+            <course>Дзюдо</course>
+            <instructor>Свояк Богдан Николаевич</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(1-ый Зал)</time>
+            <course>Дзюдо(младшая группа)</course>
+            <instructor>Свояк Богдан Николаевич</instructor>
+        </event>
+        <event>
+            <time>18:20-19:40(1-ый Зал)</time>
+            <course>Тайский Бокс</course>
+            <instructor>Воронович Дмитрий Алексеевич</instructor>
+        </event>
+    </day>
+    <day name="Вторник">
+        <event>
+            <time>11:00-12:20(Тренажерная)</time>
+            <course>Мужская тренировка(силовая)</course>
+            <instructor>Алексей Смирнов</instructor>
+        </event>
+        <event>
+            <time>12:40-15:00(Гимастический Зал)</time>
+            <course>Женская тренировка(гимнастика)</course>
+            <instructor>Вершина Анастасия Дмитриевна</instructor>
+        </event>
+            <event>
+            <time>15:20-16:40(Тренажерная)</time>
+            <course>Общая тренировка</course>
+            <instructor>Вершина Анастасия Дмитриевна</instructor>
+        </event>
+    </day>
+    <day name="Среда">
+        <event>
+            <time>11:00-12:20(1-ый Зал)</time>
+            <course>Бокс/Самбо</course>
+            <instructor>Гринев Евгений/Щекутков Александр</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(Тренажерная/Гимнастический)</time>
+            <course>Мужская тренировка(комплексная)</course>
+            <instructor>Сташкевич Эдуард</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(Гимастический Зал)</time>
+            <course>Женская тренировка(Йога)</course>
+            <instructor>Кез Алина Олеговна</instructor>
+        </event>
+    </day>
+    <day name="Четверг">
+        <event>
+            <time>11:00-12:20(1-ый Зал)</time>
+            <course>MMA</course>
+            <instructor>Воронович Дмитрий Александрович</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(Тренажерная)</time>
+            <course>Мужская тренировка(силовая)</course>
+            <instructor>Алексей Смирнов</instructor>
+        </event>
+        <event>
+            <time>18:40-20:00(Гимнастический Зал)</time>
+            <course>Женская тренировка(гимнастика)</course>
+            <instructor>Вершина Анастасия Дмитриевна</instructor>
+        </event>
+    </day>
+
+    <day name="Пятница">
+        <event>
+            <time>09:20-10:40(1-ый Зал)</time>
+            <course>Бокс</course>
+            <instructor>Гринев Евгений Александрович</instructor>
+        </event>
+        <event>
+            <time>11:00-12:20(1-ый Зал)</time>
+            <course>Самбо</course>
+            <instructor>Щекутков Александр Юрьевич</instructor>
+        </event>
+        <event>
+            <time>12:40-13:00(1-ый Зал)</time>
+            <course>BJJ</course>
+            <instructor>Бородич Вячеслав Михайлович</instructor>
+        </event>
+        <event>
+            <time>13:20-14:40(1-ый Зал)</time>
+            <course>Дзюдо</course>
+            <instructor>Свояк Богдан Николаевич</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(1-ый Зал)</time>
+            <course>Дзюдо(младшая группа)</course>
+            <instructor>Свояк Богдан Николаевич</instructor>
+        </event>
+        <event>
+            <time>17:00-19:00(Тренажерная/Гимастический)</time>
+            <course>Общая силовая тренировка</course>
+            <instructor>Вершина Анастасия Дмитриевна/Кез Алина Олеговна</instructor>
+        </event>
+        <event>
+            <time>18:20-19:40(1-ый Зал)</time>
+            <course>Тайский Бокс</course>
+            <instructor>Воронович Дмитрий Алексеевич</instructor>
+        </event>
+    </day>
+
+</schedule>

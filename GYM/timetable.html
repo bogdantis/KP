@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание занятий</title>
+    <link rel="stylesheet" href="../css/style4.0.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Расписание занятий</h1>
+    <h2>Занятия проходят по адрессу: Беларусь, Минск, улица Свердлова, 13А</h2>
+    <div class="schedule-container" id="schedule-container"></div>
+
+    <script>
+        // Функция для загрузки и отображения расписания
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "timetable.xml",
+                dataType: "xml",
+                success: function (xml) {
+                    $(xml).find('day').each(function () {
+                        var dayName = $(this).attr('name');
+                        var daySchedule = '<div class="day"><h2>' + dayName + '</h2>';
+                        $(this).find('event').each(function () {
+                            var time = $(this).find('time').text();
+                            var course = $(this).find('course').text();
+                            var instructor = $(this).find('instructor').text();
+                            daySchedule += '<div class="event"><strong>' + time + '</strong>:' + '<p>' + course + '(' + instructor + ')</p></div>';
+                        });
+                        daySchedule += '</div>';
+                        $('#schedule-container').append(daySchedule);
+                    });
+                },
+                error: function () {
+                    $('#schedule-container').html('Ошибка загрузки расписания.');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
