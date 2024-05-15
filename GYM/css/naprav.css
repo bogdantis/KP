@@ -1,0 +1,45 @@
+.head{
+    /* Наши направления */
+
+position: absolute;
+width: 406px;
+height: 43px;
+left: 405px;
+top: 213px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.img1{
+    /* Rectangle 259 */
+
+position: absolute;
+width: 445px;
+height: 410px;
+left: 405px;
+top: 531px;
+
+background: linear-gradient(180deg, rgba(200, 10, 44, 0) 7.81%, rgba(200, 10, 44, 0.3) 85.42%, rgba(200, 10, 44, 0.5) 100%), url(ALE_4306.jpg);
+
+}
+
+.p{
+    /* Group 219 */
+
+position: absolute;
+width: 540px;
+height: 290px;
+left: 975px;
+top: 591px;
+
+
+}

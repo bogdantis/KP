@@ -1,0 +1,150 @@
+.time{
+    /* Утро с 8 до 14 */
+
+position: absolute;
+width: 149px;
+height: 35px;
+left: 405px;
+top: 521px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+color: #F9F9FB;
+
+}
+
+.abdiscribe{
+    /* Если Вы все чаще ощущаете, что пора привести свое тело в порядок или же желаете проводить время активно и с пользой для физического и морального здоровья, – Вам в тренажерный зал! Здесь есть все для активного отдыха и здоровья. */
+
+position: absolute;
+width: 445px;
+height: 96px;
+left: 405px;
+top: 611px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 350;
+font-size: 16px;
+line-height: 24px;
+
+color: #F9F9FB;
+
+
+}
+
+
+.block{
+    /* Rectangle 222 */
+
+position: absolute;
+width: 1110px;
+height: 265px;
+left: 405px;
+top: 742px;
+
+background: #FFFFFF;
+
+}
+
+.headerrr{
+/* Клубные карты */
+
+position: absolute;
+width: 331px;
+height: 43px;
+left: 405px;
+top: 213px;
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.ytro{
+    /* morn 9 */
+
+position: absolute;
+width: 443px;
+height: 282px;
+left: 975px;
+top: 521px;
+
+background: url(morn2.png);
+filter: drop-shadow(0px 1px 20px rgba(200, 10, 44, 0.8));
+
+}
+
+.chance{
+    /* Возможности карты: */
+
+position: absolute;
+width: 187px;
+height: 29px;
+left: 455px;
+top: 782px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+
+color: #1D1C21;
+
+
+}
+
+.benefits{
+    /* + Тренажерный зал + Первичный инструктаж с тренером + Доступ в клубы всего города + Запись на групповые тренировки */
+
+position: absolute;
+width: 195px;
+height: 141px;
+left: 455px;
+top: 826px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+
+color: #C80A2C;
+
+
+}
+ 
+.benefits2{
+    /* + Полотенце на каждое посещение + Персональный шкаф + Питьевая вода + Парковка */
+
+position: absolute;
+width: 160px;
+height: 158px;
+left: 690px;
+top: 826px;
+
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+
+color: #C80A2C;
+
+
+}
+
